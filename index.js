@@ -1,5 +1,9 @@
 function fetchBooks() {
+<<<<<<< HEAD
   fetch('https://anapioficeandfire.com/api/characters')
+=======
+  fetch('https://anapioficeandfire.com/api/books')
+>>>>>>> edbd43f41f07dda75d753544d35821e8e1e5b142
   .then(resp => resp.json())
   .then(json => renderBooks(json));
 }
